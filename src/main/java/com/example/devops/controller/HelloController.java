@@ -11,7 +11,7 @@ public class HelloController {
     @GetMapping("/api/hello")
     public Map<String, String> hello() {
         return Map.of(
-                "message", "Hello DevOps",
+                "message", "Hello DevOps 1",
                 "status", "UP"
         );
     }
